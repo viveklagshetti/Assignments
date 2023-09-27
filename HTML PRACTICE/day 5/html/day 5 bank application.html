@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application</title>
+    <style>
+      .sx {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-transform: uppercase; text-align: center">
+      Bank Account Application form
+    </h1>
+    <div>
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="fname" class="sx">1. Applicant Agency</label></td>
+            <td><input type="text" id="fname" name="fname" class="sx" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="isis" class="sx">2. ISIS Agency Number</label></td>
+            <td><input type="text" id="isis" name="isis" class="sx" /></td>
+          </tr>
+          <tr>
+            <td><label for="b1" class="sx">3. Request Type</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="radio"
+                id="b1"
+                name="b1"
+                value="newAccount"
+                class="sx"
+              /><label for="b1" class="sx">Request For New Bank Account</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="bn1" class="sx"
+                >&nbsp;&nbsp;&nbsp;&nbsp; Bank Name and City</label
+              >
+            </td>
+            <td><input type="text" name="bn1" id="bn1" class="sx" /></td>
+            <td>
+              <label for="bn1" class="sx"
+                >&nbsp;&nbsp;&nbsp;&nbsp; Account
+                Name&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+            </td>
+            <td><input type="text" name="bn1" id="bn1" class="sx" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="radio"
+                id="b1"
+                name="b1"
+                value="newAccount"
+                class="sx"
+              /><label for="b1" class="sx"
+                >Approval of an Existing Bank
+                Account&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+            </td>
+            <td>
+              <input
+                type="radio"
+                id="b1"
+                name="b1"
+                value="newAccount"
+                class="sx"
+              /><label for="b1" class="sx"
+                >Approval for Change in an Approved Bank Account</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="bn1" class="sx"
+                >&nbsp;&nbsp;&nbsp;&nbsp; Bank Name and City</label
+              >
+            </td>
+            <td><input type="text" name="bn1" id="bn1" class="sx" /></td>
+            <td><label for="bn1" class="sx">Account Name</label></td>
+            <td><input type="text" name="bn1" id="bn1" class="sx" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="an" class="sx"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acccount Number</label
+              >
+            </td>
+            <td>
+              <input type="number" id="an" name="accountNumber" class="sx" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="accountType" class="sx">4. Type of Account</label>
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="accountType"
+                id="accountType1"
+                value="petty_cash"
+              /><label for="accountType1" class="sx"
+                >Petty Cash &nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+              <input
+                type="radio"
+                name="accountType"
+                id="accountType2"
+                value="payroll"
+              /><label for="accountType2" class="sx"
+                >Payroll&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+              <input
+                type="radio"
+                name="accountType"
+                id="accountType3"
+                value="travel"
+              /><label for="accountType3" class="sx"
+                >Travel&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+              <input
+                type="radio"
+                name="accountType"
+                id="accountType4"
+                value="other"
+              /><label for="accountType4" class="sx"
+                >Other <i>(specify)</i>&nbsp;&nbsp;&nbsp;&nbsp;</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="compensation" class="sx"
+                >5. Method of Compensation for Bank</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" id="c1" name="c" class="sx" /><label
+                for="c1"
+                class="sx"
+                >Direct Payment of Service Charges</label
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="radio" id="c2" name="c" class="sx" /><label
+                for="c2"
+                class="sx"
+                >Compensating Balance Method</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="interest" class="sx"
+                >6. Interset Bearing Account &nbsp;&nbsp;&nbsp;</label
+              >
+              <input type="radio" id="yes" name="radio" class="sx" /><label
+                for="yes"
+                class="sx"
+                >Yes</label
+              >
+              <input type="radio" id="no" name="radio" class="sx" /><label
+                for="no"
+                class="sx"
+                >No</label
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <label for="Change" class="sx"
+          >7. Explain the need for New/Change in Existing Bank Acocunt and
+          include why Existing bank account(s) listed in item 7 above cannot be
+          used for this purpose</label
+        >
+      </p>
+      <textarea name="textarea" id="textarea" cols="200" rows="4" style="position: fixed;"></textarea>
+    </div>
+  </body>
+</html>

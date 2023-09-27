@@ -1,0 +1,84 @@
+body {
+    margin: 0%;
+    padding: 0px 275px;
+}
+#main-section {
+    padding-top: 0px;
+    margin-top: -25px;
+    margin-left: 10px;
+    padding: 0px 10px 10px 10px;
+    background-color: rgba(207, 204, 198, 0.816);
+}
+#smallhead {
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+
+}
+#bighead {
+    margin-top: -20px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+}
+.empty-border{
+    margin-top: -105px;
+    padding-top: -250px;
+    border-bottom : 7px solid;
+}
+#maindiv {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#Juliet-para {
+    text-align: justify;
+
+}
+.div1{
+
+}
+.div2{
+  padding-left: 15px;    
+  border-left: 1px solid;
+  margin-left: 20px;
+  padding-right: 25px;
+}
+.girleheading {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.juliet-para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+}
+.juliet-head{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+#para {
+    text-align: justify;
+    font-size: large;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.footer-head{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: large;
+        word-spacing: 5px;
+}

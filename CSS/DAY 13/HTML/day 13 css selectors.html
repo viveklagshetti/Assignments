@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <link rel="icon" href="../IMAGES/css.png">
+</head>
+<style>
+    body{
+        padding: 0px 250px;
+        margin: 0px;
+        background-image: url(../IMAGES/backgorund\ 1.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+
+    }
+    .main-name{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+    .selectors {
+        padding: 0px 50px;
+        font-size: larger;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+   /*      border-bottom: 3px solid; */
+    }
+</style>
+<body>
+    <section>
+        <div>
+            <h1 class="main-name">CSS Selectors</h1>
+            <div class="selectors">
+                <p>
+                    <b>1. Type Selector (Element Selector):</b>
+                    <li>Targets all HTML elements of a specific type.</li>
+                    <li>Example: 'p' targets all <code>&lt;p&gt;</code>  elements on the page.</li>
+                </p>
+            </div>
+            <div class="selectors">
+                <p>
+                    <b>2. Class Selector: </b>
+                    <li>Targets elements with a specific class attribute.</li>
+                    <li>Example: .my-class targets all elements with class="my-class".</li>
+                </p>
+            </div>
+
+            <div class="selectors">
+                <p>
+                    <b>3. ID Selector:</b>
+                    <li>Targets a single element with a specific ID attribute</li>
+                    <li>Example: #my-id targets the element with id="my-id".</li>
+                </p>
+            </div>
+            <div class="selectors">
+                <p>
+                    <b>4. Universal Selector: </b>
+                    <li>Targets all elements on the page.</li>
+                    <li>Example: * targets all elements.</li>
+                </p>
+            </div>
+            <div class="selectors">
+                <p>
+                    <b>5. Descendant Selector: </b>
+                    <li>Targets elements that are descendants of a specific element.</li>
+                    <li>Example: div p targets all &lt;p&gt; elements that are descendants of &lt;div&gt; elements.</li>
+                </p>
+            </div>
+            <div class="selectors">
+                <p>
+                    <b>6. Child Selector: </b>
+                    <li>Targets elements that are direct children of a specific element.</li>
+                    <li>Example: ul > li targets all &lt;li&gt; elements that are direct children of &lt;ul&gt; elements.</li>
+                </p>
+            </div>
+            
+            <div class="selectors">
+                <p>
+                    <b>7. Adjacent Sibling Selector:</b>
+                    <li>Targets an element that is immediately preceded by a specific element.</li>
+                    <li>Example: h2 + p targets all &lt;p&gt; elements that directly follow &lt;h2&gt; elements.</li>
+                </p>
+            </div>
+            
+            <div class="selectors">
+                <p>
+                    <b>8. General Sibling Selector:</b>
+                    <li>Targets elements that share the same parent and are siblings of a specific element.</li>
+                    <li>Example: h2 ~ p targets all &lt;p&gt; elements that are siblings of &lt;h2&gt; elements.</li>
+                </p>
+            </div>
+            <div class="selectors">
+                <p>
+                    <b>9. Attribute Selector: </b>
+                    <li>Targets elements with a specific attribute and optional attribute values.</li>
+                    <li>Example: [type="text"] targets all elements with type="text".</li>
+                </p>
+            </div>
+            
+            <div class="selectors">
+                <p>
+                    <b>10. Pseudo-Class Selector: </b>
+                    <li>Targets elements based on their state or position, such as :hover for mouse hover or :nth-child(n) for selecting elements by position.</li>
+                    <li>Example: a:hover targets all&lt;a&gt; elements when they are hovered over.</li>
+                </p>
+            </div>
+            <div class="selectors">
+                <p>
+                    <b>11. Pseudo-Element Selector: </b>
+                    <li>Targets specific parts of an element, such as ::before and ::after to style generated content.</li>
+                    <li>Example: p::first-line targets the first line of all &lt;p&gt; elements.</li>
+                </p>
+            </div>
+     
+        </div>
+    </section>
+</body>
+</html>

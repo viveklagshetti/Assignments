@@ -1,0 +1,3 @@
+Assignments:
+1. Explore and document all pseudo class selectors, pseudo element selectors and attribute selectors
+2. Forms and use attribute selectors for input elements, pseudo class selectors for buttons.
